@@ -21,7 +21,7 @@ const Home = () => {
             <button variant='contained' disabled={!data}
                 onClick={() => {
                      addData()}}
-                style={{ background: "green", marginLeft: "20px", padding: "10px" }} >
+                style={{ background: "green", marginLeft: "20px", padding: "10px" ,color:"#fff" }} >
                 Add
             </button>
 

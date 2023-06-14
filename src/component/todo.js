@@ -91,13 +91,13 @@ const Todo = () => {
                         onClick={() => {
                           handleEdit(ele, k)
                         }}
-                        style={{ background: "green", padding: "10px" }} >
+                        style={{ background: "green", padding: "10px",color:"#fff"  }} >
                         Edit
                       </button>
 
                       <button variant='contained'
                         onClick={() => remove(k)}
-                        style={{ background: "green", marginLeft: "20px", padding: "10px" }} >
+                        style={{ background: "green", marginLeft: "20px", padding: "10px",color:"#fff"  }} >
                         Delete
                       </button>
 
@@ -105,7 +105,7 @@ const Todo = () => {
                         onClick={() => {
                           handleShow(ele)
                         }}
-                        style={{ background: "green", marginLeft: "20px", padding: "10px" }} >
+                        style={{ background: "green", marginLeft: "20px", padding: "10px",color:"#fff"  }} >
                         Show
                       </button>
 
